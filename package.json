@@ -1,0 +1,22 @@
+{
+  "name": "auto-complete",
+  "version": "1.0.0",
+  "description": "auto-complete directive in AngularJS and JQuery",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ujfator/auto-select-directive.git"
+  },
+  "keywords": [
+    "auto-select"
+  ],
+  "author": "Marek Beneš",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ujfator/auto-select-directive/issues"
+  },
+  "homepage": "https://github.com/ujfator/auto-select-directive#readme"
+}
