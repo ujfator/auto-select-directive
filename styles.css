@@ -1,0 +1,76 @@
+.container {
+    width: 235px;
+}
+.width100 {
+    width: 100%;
+}
+.left {
+    float: left;
+}
+.autoCompleteInput {
+    width: 200px;
+    border: 2px solid dodgerblue;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.autoCompleteInput:focus{
+    border-color:dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+.autoCompleteInputFocus{
+    border-color:dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+.autoCompleteDropDown::before {
+    content:"";
+    position: absolute;
+    top: -10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent dodgerblue transparent;
+    z-index:1;
+}
+.autoCompleteDropDown {
+    top: 60px;
+    width: 180px;
+    border: 2px solid dodgerblue;
+    padding: 8px;
+    border-radius: 4px;
+    z-index : 1;
+    outline: none;
+    position: absolute;
+    background: white;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+.itemInDropDown {
+    padding: 0 0 2px 2px;
+    border-bottom: 1px solid #aaaaaa;
+}
+.itemInDropDown:hover {
+    background: #19caff;
+    border-radius: 3px;
+}
+.arrow {
+    left:12px;
+    top: 5px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    border: solid dodgerblue;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.arrowWrapper {
+    position: relative;
+    top: 10px;
+    left: -35px;
+    width:35px;
+    height:35px;
+}
